@@ -1,0 +1,209 @@
+/* ----------------    style du part1    ---------------- */
+
+/* ----------------    reset du body    ---------------- */
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    height: 50px;
+    margin: 10px;
+}
+
+
+/* ----------------    style du menu    ---------------- */
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./img/burrito-chicken-close-up-461198\ \(1\).jpg");
+    height: 500px;
+}
+
+header>nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+header>nav>ul>li {
+    padding: 10px;
+}
+
+header>nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ----------------    style du header    ---------------- */
+header>nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header>.reserve-deluxe {
+    color: white;
+    align-self: center;
+    text-align: center;
+    margin-top: 109px;
+}
+
+header>.reserve-deluxe>.btn-reserve {
+    color: #474747;
+    padding: 15px 30px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/* ----------------    style du part2    ---------------- */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+main>.section-1 {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main>.section-1>.section-title-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-about {
+    height: 43px;
+    width: 175px;
+}
+
+.welcome {
+    color: #484848;
+}
+
+main>.section-1>.section-content {
+    display: flex;
+    flex-direction: row;
+    margin: 28px 91px 0px 120px;
+}
+
+.photo-about {
+    height: 311px;
+    padding: 23px;
+}
+
+main>.section-1>.section-content>.section-content-text {
+    padding: 9px 31px 31px 31px;
+    color: #555555;
+}
+
+.name-title {
+    font-weight: bold;
+}
+
+/* ----------------    style du part3    ---------------- */
+
+main>.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("./img/section-2.jpg");
+    height: 500px;
+    padding-bottom: 10px;
+}
+
+main>.section-2>.section-content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.section-content-part {
+    display: flex;
+}
+
+.img-ev {
+    width: 450px;
+}
+
+.event {
+    color: white;
+}
+
+.part-1,
+.part-2 {
+    margin: 0px 10px;
+}
+
+.img-1,
+.img-2 {
+    display: flex;
+}
+
+.date-part {
+    align-items: center;
+    background-color: #303030;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 19px;
+}
+
+.date-num {
+    margin: 9px;
+}
+
+.section-2>.section-content-part>.part-1>.img-1>.date-part>a,
+.section-2>.section-content-part>.part-2>.img-2>.date-part>a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ----------------    style du copyright    ---------------- */
+footer {
+    background-color: #303030;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #303030;
+    color: #fdfdfd;
+    border-top: 1px solid #474747;
+}
+
+footer>.copyright>p>a {
+    text-decoration: none;
+    color: #f4b01e;
+}
+
+.logo-footer {
+    height: 50px;
+    margin: 10px;
+}
+
+
+.headfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
